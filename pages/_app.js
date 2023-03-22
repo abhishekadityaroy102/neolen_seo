@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Neolen",
-    image: "",
-    "@id": "",
+    image: { logoimg },
+    // "@id": "",
     url: "https://www.neolen.com/",
     telephone: "00917678511552",
     address: {
@@ -23,6 +23,7 @@ function MyApp({ Component, pageProps }) {
       postalCode: "282001",
       addressCountry: "IN",
     },
+    email: "support@neolen.com",
   };
   return (
     <>
